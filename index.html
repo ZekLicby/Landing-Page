@@ -15,13 +15,16 @@
     <title>Landing Page</title>
 </head>
 <body>
+
+    <input type="checkbox" id="close-menu" class="close-menu" aria-label="Close menu" role="button">
+    <label for="close-menu" class="close-menu-label" title="close menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1>
                 <a href="#home">Home</a>
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false">
                     <li><a href="#intro">Intro</a></li>
                     <li><a href="#grid-one">Grid One</a></li>
                     <li><a href="#gallery">Gallery</a></li>
@@ -230,5 +233,7 @@
     <footer id="footer" class="white-bg footer">
         <p><a href="https://github.com/ZekLicby" target="_blank" rel="nofollow">Feito <del>com</del> <ins>sem</ins> <span class="khii">♥</span> por Carlos Lins</a></p>
     </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
 </body>
 </html>

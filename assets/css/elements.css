@@ -3,15 +3,6 @@
     padding: 0;
 }
 
-a{
-    text-decoration: none;
-}
-
-/*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
-
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -48,6 +39,10 @@ h5{
 }
 h6{
     font-size: 3.5rem;
+}
+
+a{
+    text-decoration: none;
 }
 
 p{

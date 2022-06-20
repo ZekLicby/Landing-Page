@@ -12,24 +12,25 @@
     justify-content: center;
 }
 
-.intro-img img{
+.intro-img img,
+.intro-img svg{
     max-width: 100%;
-    min-height: auto;
+    height: auto;
 }
 
 .top3-content{
+    display: flex;
     max-width: 64rem;
     text-align: center;
     min-height: 100vh;
-    display: flex;
     flex-flow: column nowrap;
     min-height: 100vh;
     justify-content: center;
 }
 
 .grid-one-content{
-    height: 100vh;
     display: flex;
+    min-height: 100vh;
     flex-flow: column wrap;
     justify-content: center;
 }
@@ -106,7 +107,7 @@
 
 .form-group label{
     display: block;
-    margin-bottom: 0.1rem;
+    margin-bottom: 1rem;
 }
 
 .form-group input,
@@ -247,5 +248,30 @@
 
     .menu-spacing{
         display: none;
+    }
+
+
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 3.6rem;
+    }
+
+    h3{
+        font-size: 3.4rem;
+    }
+
+    h4{
+        font-size: 3.2rem;
+    }
+
+    h5{
+        font-size: 3rem;
+    }
+
+    h6{
+        font-size: 2.8rem;
     }
 }
